@@ -5,7 +5,7 @@ En la carpeta Criptografía y seguridad en redes se encuentran todas las imágen
 w2.pcapng es la captura en la cual se pueden encontrar los paquetes ICMP request enviados en la segunda actividad, para filtrar estos mismos, se usa:
 
 ```
-icmp && ip.src== 172.21.19.199
+icmp && ip.src== 172.21.19.199 && ip.dst== 8.8.8.8
 ```
 
 En la carpeta \Códigos se encuentran los 3 códigos generados por IA.
